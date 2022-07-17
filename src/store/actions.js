@@ -1,0 +1,1 @@
+export * as actions from '../store/covid/actions';

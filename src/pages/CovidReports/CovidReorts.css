@@ -1,0 +1,50 @@
+.countrylist {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    width: 100%;
+}
+
+.country {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #93bdf1;
+    border-radius: 10px;
+    transition: all is ease-in-out;
+    cursor: pointer;
+
+}
+
+.country:hover {
+    transform: scale(1.1);
+}
+
+.country>h2 {
+    margin: 5px 0;
+}
+
+.describe {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    justify-items: center;
+    width: 95%;
+}
+
+.dist {
+    display: grid;
+    grid-gap: 1rem;
+    justify-items: center;
+    width: 95%;
+}
+
+button {
+    color: rgb(36, 40, 44);
+    border-radius: 15px;
+}
+
+.sort {
+    cursor: context-menu;
+}
