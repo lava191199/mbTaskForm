@@ -59,7 +59,7 @@ function Parent() {
                         </Col>
                         <Col md={6}>
                             <FormGroup>
-                                <Label>College</Label>
+                                <Label>College  </Label>
                                 <Select
                                     name="selectedSheet"
                                     placeholder="Select College"
@@ -123,7 +123,7 @@ function Parent() {
                                     // maxDate={moment().toDate()}
                                     dateFormat="dd/MM/yyyy"
                                     onBlur={() => setFieldTouched('birthDate', true)}
-                                    autoComplete="off"
+                                    // autoComplete="off"
 
                                 />
                                 {errors?.birthDate && touched?.birthDate && <div className='error-message'>{errors?.birthDate}</div>}
